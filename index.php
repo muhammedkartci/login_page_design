@@ -25,9 +25,9 @@
                         <input type="password" name="password" class="login-field" placeholder="Şifre" id="login-pass">
                         <label class="login-field-icon fui-user" for="login-pass"></label>
                     </div>
-                    <div style="display: flex; gap: 8px">
-                        <a href="index.php" class="btn btn-primary btn-large btn-block" style="flex:2">Giriş Yap</a>
-                        <a href="register.php" class="btn btn-primary btn-large btn-block" style="flex:2">Kayıt Ol</a>
+                    <div class="buttons">
+                        <a href="index.php" class="btn btn-primary btn-large btn-block">Giriş Yap</a>
+                        <a href="register.php" class="btn btn-primary btn-large btn-block">Kayıt Ol</a>
                     </div>
                 </div>
             </form>

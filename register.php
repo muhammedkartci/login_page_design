@@ -16,6 +16,18 @@
         <form action="islem.php" method="post">
             <div class="login-form">
                 <div class="control-group">
+                    <input type="text" name="username" class="login-field" placeholder="Ad*" id="login-name">
+                    <label class="login-field-icon fui-user" for="login-name"></label>
+                </div>
+                <div class="control-group">
+                    <input type="text" name="username" class="login-field" placeholder="Soyad*" id="login-name">
+                    <label class="login-field-icon fui-user" for="login-name"></label>
+                </div>
+                <div class="control-group">
+                    <input type="text" name="username" class="login-field" placeholder="E-posta*" id="login-name">
+                    <label class="login-field-icon fui-user" for="login-name"></label>
+                </div>
+                <div class="control-group">
                     <input type="text" name="username" class="login-field" placeholder="Kullanıcı Adı" id="login-name">
                     <label class="login-field-icon fui-user" for="login-name"></label>
                 </div>
@@ -27,8 +39,10 @@
                     <input type="password" name="password-again" class="login-field" placeholder="Şifreyi Onayla" id="login-pass">
                     <label class="login-field-icon fui-user" for="login-pass"></label>
                 </div>
-                <a href="index.php" class="btn btn-primary btn-large btn-block">Giriş Yap</a>
-                <a href="register.php" class="btn btn-primary btn-large btn-block">Kayıt Ol</a>
+                <div class="buttons">
+                    <a href="index.php" class="btn btn-primary btn-large btn-block">Giriş Yap</a>
+                    <a href="register.php" class="btn btn-primary btn-large btn-block">Kayıt Ol</a>
+                </div>
             </div>
         </form>
         </div>
